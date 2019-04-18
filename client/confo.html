@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sample App: Multi-Party Conference using EnableX</title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/confo.css">
+    <link rel="shortcut icon" type="image/png" href="img/enablex.png"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/tether.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/EnxRtc.js"></script>
+    <script type="text/javascript" src="js/util.js"></script>
+    <script type="text/javascript" src="js/confo.js"></script>
+    <link rel="stylesheet" href="css/jquery.toast.css">
+
+</head>
+<body>
+<div class="container-fluid">
+
+    <div class="col-md-12" style="width: 100%;height:100%;">
+        <div class="video_container_div">
+            <div class="row">
+                    <div id="local_video_div" class="col-md-3 col-sm-3"></div>
+                    <div id="multi_video_container_div"></div>
+            </div>
+        </div>
+        <div class="row" id="controls-div" style="display: none">
+            <div class="controls" id="controls" style="position: absolute;bottom: 12%;width:100%;text-align: center;z-index: 10000">
+                <img src="img/mike.png" style="max-width : 50px;margin-right: 20px;cursor: pointer;"
+                     class="cus_img_icon icon-confo-mute" onclick="audioMute()" title="mute audio"/>
+                <img src="img/video.png" style="max-width : 50px;margin-right: 20px;cursor: pointer;"
+                     class="cus_img_icon icon-confo-video-mute" title="mute video" onclick="videoMute()"/>
+                <img src="img/end-call.png" style="max-width : 60px;margin-right: 20px;cursor: pointer;" class="cus_img_icon end_call"
+                     title="End_call" onclick="endCall()"/>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+<script type="text/javascript" src="js/jquery.toast.js"></script>
+</body>
+</html>
