@@ -1,4 +1,4 @@
-<?
+<?php
 ///////////////////////////////////////////////////////
 //
 // Application: Sample App - 1 to 1 Video Call using EnableX Web Toolkit 1.3
