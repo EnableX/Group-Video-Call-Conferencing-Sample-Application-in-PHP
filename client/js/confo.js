@@ -94,7 +94,7 @@ window.onload = function () {
         audio: true,
         video: true,
         data: true,
-        videoSize: [640, 480, 640, 480],
+        videoSize: [1280, 720, 1280, 720],
         options: options,
         attributes : {
             name:name
@@ -242,7 +242,7 @@ window.onload = function () {
                         'timestamp': data.message.timestamp,
                         'username': data.message.from
                     };
-                    plotChat(obj);
+                   // Handle UI to display message
                 });
 
                 // Stream went out of Room
