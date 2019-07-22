@@ -173,7 +173,7 @@ window.onload = function () {
     createToken(createDataJson(window.location.href), function (response) {
 
         var token = response;
-        var ATList = null;
+        var ATList = [];
 
         // JOin Room
         localStream = EnxRtc.joinRoom(token, config, function (success, error) {
