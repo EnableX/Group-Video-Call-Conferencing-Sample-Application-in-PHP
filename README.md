@@ -29,7 +29,7 @@ Visit Demo Zone (https://portal.enablex.io/demo-zone/) to request a Guided Demo 
 
 ### 3.1 Pre-Requisites
 
-#### 3.1.1 App Id and Api Key 
+#### 3.1.1 App Id and App Key 
 
 * Register with EnableX [https://www.enablex.io] 
 * Create your Application
