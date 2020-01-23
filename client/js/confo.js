@@ -94,7 +94,7 @@ window.onload = function () {
         audio: true,
         video: true,
         data: true,
-        videoSize: [1280, 720, 1280, 720],
+        videoSize: [320, 180, 640, 480],
         options: options,
         attributes : {
             name:name

@@ -86,7 +86,7 @@ function  CreateRoom()
     "owner_ref"		=> $random_name,
     "settings"		=> Array(
 				"description"	=> "",
-				"quality"		=> "HD",
+				"quality"		=> "SD",
 				"mode"			=> "group",
 				"participants"	=> "10",
 				"duration"		=> "60",
