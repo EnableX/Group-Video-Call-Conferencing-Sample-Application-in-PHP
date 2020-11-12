@@ -6,13 +6,13 @@ RTC Applications hosted on EnableX platform run natively on supported set of web
 
 This basic Multi-Party RTC Application is generated using HTML, CSS, Bootstrap, JavaScript, jQuery, PHP and EnxRtc (The EnableX Web Toolkit). 
 
->The details of the supported set of web browsers can be found here:
-https://developer.enablex.io/video/browser-compatibility-of-enablex-video/
+> The details of the supported set of web browsers can be found here:
+> https://developer.enablex.io/video/browser-compatibility-of-enablex-video/
 
 
 ## 1. Important!
 
-When developing a Client Application with EnxRtc.js make sure to include the updated EnxRtc.js polyfills from https://developer.enablex.io/video-api/client-api/web-toolkit/ for RTCPeerConnection and getUserMedia. Otherwise your application will not work in web browsers.
+When developing a Client Application with EnxRtc.js, make sure to include the updated EnxRtc.js polyfills from https://developer.enablex.io/video-api/client-api/web-toolkit/ for RTCPeerConnection and getUserMedia. Otherwise your application will not work in web browsers.
 
 
 ## 2. Trial
@@ -29,7 +29,7 @@ Sign up for a free trial https://portal.enablex.io/cpaas/trial-sign-up/ or try o
 * Register with EnableX [https://portal.enablex.io/cpaas/trial-sign-up/] 
 * Create your Application
 * Get your App ID and App Key
-* Clone this Repository `https://github.com/EnableX/Group-Video-Call-Conferencing-Sample-Application-in-PHP.git --recursive` & follow the steps further
+* Clone this repository `git clone https://github.com/EnableX/Group-Video-Call-Conferencing-Sample-Application-in-PHP.git --recursive` & follow the steps further
 * You can copy the app into any sub-directory of hosted Website on Apache
 
 #### 3.1.2 SSL Certificates
