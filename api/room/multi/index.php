@@ -90,7 +90,7 @@ function  CreateRoom()
 			"participants"	=> "5",
 			"duration"		=> "30",
 			"scheduled"		=> false,
-			"auto_recording"=> true,
+			"auto_recording"=> false,
 			"adhoc"			=> false
 		]
 	];
