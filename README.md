@@ -1,10 +1,12 @@
-# Multi-Party RTC: A Sample Web App using PHP and EnableX Web Toolkit
+# Creating a Multi-Party Real-Time Communication Web App with PHP and EnableX Web Toolkit
 
-The Sample Web App demonstrates the use of APIs for EnableX platform to develop basic Multi-Party RTC (Real Time Communication) Application. The main motivation behind this application is to demonstrate usage of APIs and allow developers to ramp up on app by hosting on their own devices instead of directly using servers.
+Multi-Party RTC Web App: PHP and EnableX Web Toolkit 
 
-RTC Applications hosted on EnableX platform run natively on supported set of web browsers without any additional plugin downloads. 
+Explore a Sample Web App showcasing the use of EnableX platform APIs to create a fundamental Multi-Party RTC (Real-Time Communication) Application. This application aims to demonstrate API utilization and enables developers to accelerate app development by hosting it on their personal devices, eliminating the need for external servers. 
 
-This basic Multi-Party RTC Application is generated using HTML, CSS, Bootstrap, JavaScript, jQuery, PHP and EnxRtc (The EnableX Web Toolkit). 
+RTC Applications hosted on the EnableX platform operate seamlessly on supported web browsers, requiring no additional plugin downloads. 
+
+This basic Multi-Party RTC Application is developed using HTML, CSS, Bootstrap, JavaScript, jQuery, PHP, and EnxRtc (EnableX Web Toolkit). 
 
 > The details of the supported set of web browsers can be found here:
 > https://developer.enablex.io/video/browser-compatibility-of-enablex-video/
