@@ -14,7 +14,7 @@ This basic Multi-Party RTC Application is developed using HTML, CSS, Bootstrap, 
 
 ## 1. Important!
 
-When developing a Client Application with EnxRtc.js, make sure to include the updated EnxRtc.js polyfills from [https://developer.enablex.io/video-api/client-api/web-toolkit/](https://developer.enablex.io/docs/references/sdks/video-sdk/web-sdk/index/) for RTCPeerConnection and getUserMedia. Otherwise your application will not work in web browsers.
+When developing a Client Application with EnxRtc.js, make sure to include the updated EnxRtc.js polyfills from https://developer.enablex.io/docs/references/apis/video-api/index/ for RTCPeerConnection and getUserMedia. Otherwise your application will not work in web browsers.
 
 
 ## 2. Trial
@@ -71,11 +71,11 @@ meeting rooms. API Access is given to each Application through the assigned App 
 are to be used as Username and Password respectively to pass as HTTP Basic Authentication header to access Server API.
 
 For this application, the following Server API calls are used:
-* [https://developer.enablex.io/video-api/server-api/rooms-route/#create-room](https://developer.enablex.io/docs/references/apis/video-api/content/api-routes/#create-a-room) - To create room to carry out a video session
-* [https://developer.enablex.io/video-api/server-api/rooms-route/#create-token](https://developer.enablex.io/docs/references/apis/video-api/content/api-routes/#create-a-token) - To create Token for the given Room to join a session
+* https://developer.enablex.io/docs/references/apis/video-api/content/api-routes/#create-a-room - To create room to carry out a video session
+* https://developer.enablex.io/docs/references/apis/video-api/content/api-routes/#create-a-token - To create Token for the given Room to join a session
 
 To know more about Server API, go to:
-[https://developer.enablex.io/video-api/server-api/](https://developer.enablex.io/docs/references/apis/video-api/index/)
+https://developer.enablex.io/docs/references/apis/video-api/index/
 
 
 ## 5. Client API
