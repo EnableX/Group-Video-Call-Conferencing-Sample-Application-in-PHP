@@ -9,7 +9,7 @@ RTC Applications hosted on the EnableX platform operate seamlessly on supported 
 This basic Multi-Party RTC Application is developed using HTML, CSS, Bootstrap, JavaScript, jQuery, PHP, and EnxRtc (EnableX Web Toolkit). 
 
 > The details of the supported set of web browsers can be found here:
-> https://developer.enablex.io/video/browser-compatibility-of-enablex-video/
+> https://developer.enablex.io/docs/references/sdks/video-sdk/web-sdk/index/
 
 
 ## 1. Important!
